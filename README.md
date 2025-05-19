@@ -38,22 +38,20 @@ Un juego interactivo de memoria desarrollado con React y Next.js donde los jugad
 
 ## Instalación
 
-1. Clona este repositorio:
-   \`\`\`bash
-   git clone <https://github.com/Rumaldo24/memory-game.git>
-
-   cd juego-de-memoria
-   \`\`\`
-
-2. Instala las dependencias:
-   \`\`\`bash
+1. Clona este repositorio:<br>
+   bash<br>
+   git clone <https://github.com/Rumaldo24/memory-game.git><br>
+   cd memory-game
+   
+3. Instala las dependencias:<br>
+   bash<br>
    npm install
 
-3. Inicia el servidor de desarrollo:
-   \`\`\`bash
+4. Inicia el servidor de desarrollo:<br>
+   bash<br>
    npm run dev
 
-4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el juego.
+5. Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el juego.
 
 ## Cómo jugar
 
@@ -92,7 +90,7 @@ Un juego interactivo de memoria desarrollado con React y Next.js donde los jugad
 
 Modifica el array `emojis` en el archivo `lib/game-utils.ts` para usar diferentes emojis o símbolos.
 
-## Licencia Propia
+## Licencia
 
 **AVISO IMPORTANTE: TODOS LOS DERECHOS RESERVADOS**
 
@@ -102,6 +100,6 @@ Cualquier uso no autorizado de este software constituye una violación de los de
 
 Si desea obtener permiso para utilizar, modificar o distribuir este software, debe comunicarse directamente con el propietario a través del siguiente correo electrónico:
 
-**Contacto**: <rumaldorv.11@outlook.com>
+📩 **Contacto**: [rumaldorv.11@outlook.com](mailto:rumaldorv.11@outlook.com)
 
 © 2024 Todos los derechos reservados.
