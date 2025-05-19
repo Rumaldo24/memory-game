@@ -3,11 +3,12 @@
 
 Un juego interactivo de memoria desarrollado con React y Next.js donde los jugadores deben encontrar todas las parejas de cartas iguales en el menor tiempo y con la menor cantidad de movimientos posibles.
 
-![Juego de Memoria](https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-ashYz0n06QXHBWnMOCAv51XyyYxgtL.png)
+![Juego de Memoria](https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-HGnmRY8NnSBkN7HZy5J2ASUgs5NuHX.png)
 
 ## Características
 
 ### Funcionalidades principales
+
 - ✅ Tablero dinámico con cartas ocultas (4x4, 5x4 o 6x6 según dificultad)
 - ✅ Cartas que se voltean al hacer clic
 - ✅ Cartas coincidentes permanecen descubiertas
@@ -17,6 +18,7 @@ Un juego interactivo de memoria desarrollado con React y Next.js donde los jugad
 - ✅ Botones para iniciar, reiniciar y terminar el juego
 
 ### Características adicionales
+
 - ✅ Niveles de dificultad (fácil, medio, difícil) que cambian el tamaño del tablero
 - ✅ Animaciones suaves al voltear las cartas usando Framer Motion
 - ✅ Sistema de puntuación basado en tiempo y movimientos
@@ -38,7 +40,8 @@ Un juego interactivo de memoria desarrollado con React y Next.js donde los jugad
 
 1. Clona este repositorio:
    \`\`\`bash
-   git clone https://github.com/tu-usuario/juego-de-memoria.git
+   git clone <https://github.com/Rumaldo24/memory-game.git>
+
    cd juego-de-memoria
    \`\`\`
 
@@ -78,7 +81,6 @@ Un juego interactivo de memoria desarrollado con React y Next.js donde los jugad
    - A menor tiempo y menos movimientos, mayor puntuación
    - La dificultad también afecta a la puntuación (mayor dificultad = mayor puntuación base)
 
-
 ## Personalización
 
 ### Añadir nuevos sonidos
@@ -100,6 +102,6 @@ Cualquier uso no autorizado de este software constituye una violación de los de
 
 Si desea obtener permiso para utilizar, modificar o distribuir este software, debe comunicarse directamente con el propietario a través del siguiente correo electrónico:
 
-**Contacto**: rumaldorv.11@outlook.com
+**Contacto**: <rumaldorv.11@outlook.com>
 
 © 2024 Todos los derechos reservados.
