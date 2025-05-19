@@ -90,7 +90,7 @@ Un juego interactivo de memoria desarrollado con React y Next.js donde los jugad
 
 Modifica el array `emojis` en el archivo `lib/game-utils.ts` para usar diferentes emojis o símbolos.
 
-## Licencia Propia
+## Licencia
 
 **AVISO IMPORTANTE: TODOS LOS DERECHOS RESERVADOS**
 
