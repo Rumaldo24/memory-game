@@ -13,6 +13,7 @@ import {
 import { Trophy, Clock, Move, Star } from "lucide-react"
 import { formatTime } from "@/lib/game-utils"
 import confetti from "canvas-confetti"
+import { AdBanner } from "@/components/ad-banner"
 
 interface GameOverModalProps {
   moves: number
@@ -96,6 +97,14 @@ export function GameOverModal({ moves, time, score, onPlayAgain }: GameOverModal
           </div>
         </div>
 
+        {/* Anuncio en el modal de fin de juego */}
+        <AdBanner 
+          adSlot="5566778899" 
+          adFormat="rectangle" 
+          className="w-full my-4" 
+          style={{ minHeight: "250px" }} 
+        />
+        
         <DialogFooter className="sm:justify-center">
           <Button
             onClick={() => {

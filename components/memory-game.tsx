@@ -9,6 +9,7 @@ import { generateCards } from "@/lib/game-utils"
 import { useSound } from "@/hooks/use-sound"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
+import { AdBanner } from "@/components/ad-banner"
 
 export type Difficulty = "easy" | "medium" | "hard"
 export type CardType = {
@@ -205,6 +206,14 @@ export default function MemoryGame() {
 
   return (
     <div className="w-full max-w-4xl flex flex-col items-center gap-6">
+      {/* Anuncio en la parte superior */}
+      <AdBanner 
+        adSlot="1234567890" 
+        adFormat="horizontal" 
+        className="w-full mb-4" 
+        style={{ minHeight: "90px" }} 
+      />
+
       <DifficultySelector
         difficulty={difficulty}
         onDifficultyChange={handleDifficultyChange}
@@ -222,6 +231,14 @@ export default function MemoryGame() {
           >
             Iniciar Juego
           </Button>
+
+          {/* Anuncio antes de iniciar el juego (más visible) */}
+          <AdBanner 
+            adSlot="0987654321" 
+            adFormat="rectangle" 
+            className="w-full my-4" 
+            style={{ minHeight: "250px" }} 
+          />
         </div>
       ) : (
         <div className={cn("grid gap-2 w-full", getBoardSize())}>
@@ -231,6 +248,14 @@ export default function MemoryGame() {
         </div>
       )}
 
+      {/* Anuncio en la parte inferior */}
+      <AdBanner 
+        adSlot="1122334455" 
+        adFormat="horizontal" 
+        className="w-full mt-4" 
+        style={{ minHeight: "90px" }} 
+      />
+      
       {gameCompleted && <GameOverModal moves={moves} time={time} score={score} onPlayAgain={startGame} />}
     </div>
   )

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+// import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -83,6 +84,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      {/* <head> */}
+        {/* Script de Google AdSense */}
+        {/* <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        /> */}
+      {/* </head> */}
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
