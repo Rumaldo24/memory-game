@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
             userAgent: '*',
             allow: '/',
         },
-        sitemap: 'https://memory-game-silk-eight.vercel.app/sitemap.xml',
+        sitemap: 'https://www.doblix.fun/sitemap.xml',
     }
 }

@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://memory-game-silk-eight.vercel.app/"),
+  metadataBase: new URL("https://www.doblix.fun"),
   alternates: {
     canonical: "/",
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Juego de Memoria | Encuentra todas las parejas",
     description:
       "Juego interactivo de memoria donde debes encontrar todas las parejas de cartas en el menor tiempo y con la menor cantidad de movimientos posibles.",
-    url: "https://memory-game-silk-eight.vercel.app/",
+    url: "https://www.doblix.fun",
     siteName: "Juego de Memoria",
     images: [
       {
