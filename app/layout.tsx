@@ -7,7 +7,7 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Juego de Memoria | Encuentra todas las parejas",
+  title: "Juego de Memoria | doblix",
   description:
     "Juego interactivo de memoria donde debes encontrar todas las parejas de cartas en el menor tiempo y con la menor cantidad de movimientos posibles.",
   keywords: [
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Juego de Memoria | Encuentra todas las parejas",
+    title: "Juego de Memoria | doblix",
     description:
       "Juego interactivo de memoria donde debes encontrar todas las parejas de cartas en el menor tiempo y con la menor cantidad de movimientos posibles.",
     url: "https://www.doblix.fun",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
         url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-HGnmRY8NnSBkN7HZy5J2ASUgs5NuHX.png",
         width: 1200,
         height: 630,
-        alt: "Juego de Memoria - Encuentra todas las parejas",
+        alt: "Juego de Memoria - doblix",
       },
     ],
     locale: "es_ES",
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Juego de Memoria | Encuentra todas las parejas",
+    title: "Juego de Memoria | doblix",
     description:
       "Juego interactivo de memoria donde debes encontrar todas las parejas de cartas en el menor tiempo y con la menor cantidad de movimientos posibles.",
     images: [
@@ -83,8 +83,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="es">
       <head>
+        <link rel="icon" href="/favicon.ico" />
         {/* Script de Google AdSense */}
         <Script
           async
@@ -92,11 +93,6 @@ export default function RootLayout({
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
-        {/* <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7441679162161349"
-          crossorigin="anonymous"
-        ></script> */}
       </head>
 
       <body className={inter.className}>
