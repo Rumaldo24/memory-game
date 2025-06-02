@@ -2,6 +2,5 @@
 User-agent: *
 Allow: /
 
-
 # Sitemaps
 Sitemap: https://www.doblix.fun/sitemap.xml
