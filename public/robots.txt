@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.doblix.fun
+#Host: https://www.doblix.fun
 
 # Sitemaps
 Sitemap: https://www.doblix.fun/sitemap.xml
