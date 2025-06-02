@@ -2,8 +2,8 @@ import { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
     return {
-        name: 'Juego de Memoria',
-        short_name: 'Memoria',
+        name: 'Doblix - Juego de Memoria',
+        short_name: 'Doblix',
         description: 'Juego interactivo de memoria donde debes encontrar todas las parejas de cartas.',
         start_url: '/',
         display: 'standalone',
@@ -12,7 +12,7 @@ export default function manifest(): MetadataRoute.Manifest {
         icons: [
             {
                 src: '/favicon.ico',
-                sizes: 'any',
+                sizes: '192x192',
                 type: 'image/x-icon',
             },
             {
