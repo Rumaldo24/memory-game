@@ -13,7 +13,7 @@ import {
 import { Trophy, Clock, Move, Star } from "lucide-react"
 import { formatTime } from "@/lib/game-utils"
 import confetti from "canvas-confetti"
-import { AdBanner } from "@/components/ad-banner"
+// import { AdBanner } from "@/components/ad-banner"
 
 interface GameOverModalProps {
   moves: number

@@ -9,7 +9,7 @@ import { generateCards } from "@/lib/game-utils"
 import { useSound } from "@/hooks/use-sound"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
-import { AdBanner } from "@/components/ad-banner"
+// import { AdBanner } from "@/components/ad-banner"
 
 export type Difficulty = "easy" | "medium" | "hard"
 export type CardType = {
