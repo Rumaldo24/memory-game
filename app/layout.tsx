@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  manifest: '/manifest.webmanifest',
+  manifest: "/manifest.webmanifest",
   title: "doblix | Juego de Memoria",
   description:
     "Juego interactivo de memoria donde debes encontrar todas las parejas de cartas en el menor tiempo y con la menor cantidad de movimientos posibles.",
@@ -105,6 +105,11 @@ export default function RootLayout({
           crossOrigin="anonymous"
           strategy="afterInteractive"
         /> */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7441679162161349"
+          crossOrigin="anonymous"
+        ></script>
       </head>
 
       <body className={inter.className}>
