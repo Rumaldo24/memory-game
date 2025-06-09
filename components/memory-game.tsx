@@ -207,12 +207,12 @@ export default function MemoryGame() {
   return (
     <div className="w-full max-w-4xl flex flex-col items-center gap-6">
       {/* Anuncio en la parte superior */}
-      <AdBanner 
+      {/* <AdBanner 
         adSlot="1234567890" 
         adFormat="horizontal" 
         className="w-full mb-4" 
         style={{ minHeight: "90px" }} 
-      />
+      /> */}
 
       <DifficultySelector
         difficulty={difficulty}
@@ -233,12 +233,12 @@ export default function MemoryGame() {
           </Button>
 
           {/* Anuncio antes de iniciar el juego (más visible) */}
-          <AdBanner 
+          {/* <AdBanner 
             adSlot="0987654321" 
             adFormat="rectangle" 
             className="w-full my-4" 
             style={{ minHeight: "250px" }} 
-          />
+          /> */}
         </div>
       ) : (
         <div className={cn("grid gap-2 w-full", getBoardSize())}>
@@ -249,12 +249,12 @@ export default function MemoryGame() {
       )}
 
       {/* Anuncio en la parte inferior */}
-      <AdBanner 
+      {/* <AdBanner 
         adSlot="1122334455" 
         adFormat="horizontal" 
         className="w-full mt-4" 
         style={{ minHeight: "90px" }} 
-      />
+      /> */}
       
       {gameCompleted && <GameOverModal moves={moves} time={time} score={score} onPlayAgain={startGame} />}
     </div>

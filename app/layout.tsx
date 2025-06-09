@@ -99,12 +99,12 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" />
         {/* Script de Google AdSense */}
-        <Script
+        {/* <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7441679162161349"
           crossOrigin="anonymous"
           strategy="afterInteractive"
-        />
+        /> */}
       </head>
 
       <body className={inter.className}>

@@ -98,12 +98,12 @@ export function GameOverModal({ moves, time, score, onPlayAgain }: GameOverModal
         </div>
 
         {/* Anuncio en el modal de fin de juego */}
-        <AdBanner 
+        {/* <AdBanner 
           adSlot="5566778899" 
           adFormat="rectangle" 
           className="w-full my-4" 
           style={{ minHeight: "250px" }} 
-        />
+        /> */}
         
         <DialogFooter className="sm:justify-center">
           <Button
